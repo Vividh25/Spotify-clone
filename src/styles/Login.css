@@ -1,0 +1,24 @@
+.logo__class{
+    display: grid;
+    place-items: center;
+}
+.logo__class > img{
+    height: 120px;
+    margin-top: 10px;
+
+}
+.login{
+    background-color: black;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.login > a{
+    background-color: #1DB954;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 99px;
+    margin-top: 10px;
+    font-weight: 600;
+    text-decoration: none;
+}
