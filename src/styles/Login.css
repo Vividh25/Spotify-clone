@@ -20,5 +20,9 @@
     border-radius: 99px;
     margin-top: 10px;
     font-weight: 600;
-    text-decoration: none;
+    text-decoration: none !important;
+    color: black;
+}
+.login > a:hover{
+    cursor: pointer;
 }
