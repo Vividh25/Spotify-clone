@@ -7,8 +7,8 @@ import { DataLayer } from "./DataLayer";
 import reducer, { initialState } from "./Reducer";
 
 ReactDOM.render(
-    <React.StrictMode initialState={initialState} reducer={reducer}>
-        <DataLayer>
+    <React.StrictMode>
+        <DataLayer initialState={initialState} reducer={reducer}>
             <App />
         </DataLayer>
     </React.StrictMode>,
